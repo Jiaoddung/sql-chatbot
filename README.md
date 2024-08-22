@@ -77,10 +77,9 @@ Once the Gradio interface is up and running, you can interact with the chatbot b
 
 ### Example Questions:
 
-- "List all artists."
-- "Find all albums for the artist 'AC/DC'."
-- "How many tracks are there in the album with ID 5?"
-- "Who are the top 5 customers by total purchase?"
+- "How many scrap units were produced at July 21, 2024 in Raynham site?"
+- "How many scrap units were produced  in June at Raynham site?"
+- "What is the difference of scrap units that were produced between June and July 2024 in Raynham site?"
 
 ## Project Structure
 
