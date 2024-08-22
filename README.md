@@ -28,8 +28,11 @@ To set up and run this project, follow the steps below:
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- SQLite database (`chinook.db`)
+​	•	Python 3.8 or higher
+
+​	•	SQLite database (chinook.db)
+
+​	•	Jupyter Notebook
 
 ### Clone the Repository
 
@@ -64,11 +67,9 @@ Ensure you have the `chinook.db` SQLite database file and the `chinook.sql` scri
 
 ### Running the Application
 
-After setting up the environment and database, run the following command to start the Gradio interface:
+After setting up the environment and database, open the SQL_Chatbot.ipynb Jupyter Notebook in your preferred environment (e.g., Jupyter Notebook, JupyterLab, or VSCode).
 
-```bash
-python app.py
-```
+Run all cells in the notebook to start the Gradio interface. You will be able to interact with the chatbot directly from the notebook.
 
 ## Usage
 
@@ -87,7 +88,7 @@ Once the Gradio interface is up and running, you can interact with the chatbot b
 sql-chatbot/
 ├── chinook.db                # SQLite database file
 ├── chinook.sql               # SQL script to set up the database
-├── app.py                    # Main application code
+├── SQL_Chatbot.ipynb         # Main application code in Jupyter Notebook format
 ├── README.md                 # Project documentation
 └── requirements.txt          # Python package requirements
 ```
