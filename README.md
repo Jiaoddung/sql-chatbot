@@ -236,8 +236,9 @@ demo.launch(share=True)
 ## Examples
 
 Here are some example interactions:
-<img width="1480" alt="image" src="https://github.com/user-attachments/assets/c73a5782-60eb-432c-a010-e3e5d4dc7416">
+<img width="1481" alt="image" src="https://github.com/user-attachments/assets/9e069016-ea76-488e-be23-0ae82bb2781e">
 <img width="1482" alt="image" src="https://github.com/user-attachments/assets/8f9280b1-cf3f-41a8-9b7a-0eb8bfd7dfb1">
+<img width="1480" alt="image" src="https://github.com/user-attachments/assets/67e06ba6-ec5a-4a7c-be45-bff16e9b3900">
 
 
 
