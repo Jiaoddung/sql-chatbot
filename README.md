@@ -11,7 +11,7 @@ This project implements an AI-powered chatbot capable of interacting with a loca
 - [How It Works](#how-it-works)
 - [Detailed Implementation](#detailed-implementation)
 - [Examples](#examples)
-- [License](#license)
+
 
   
 ## Features
