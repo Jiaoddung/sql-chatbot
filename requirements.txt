@@ -1,0 +1,10 @@
+langchain_ollama
+langchain
+langchain_community
+pyodbc
+mssql
+langchain_huggingface
+faiss-cpu
+gradio
+sentence-transformers
+sqlite3
