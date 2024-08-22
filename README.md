@@ -30,7 +30,7 @@ To set up and run this project, follow the steps below:
 
 ​	•	Python 3.8 or higher
 
-​	•	SQLite database (chinook.db)
+​	•	SQLite database (FakeData.db)
 
 ​	•	Jupyter Notebook
 
@@ -63,7 +63,7 @@ Replace `your_langchain_api_key` with your actual LangChain API key.
 
 ### Database Setup
 
-Ensure you have the `chinook.db` SQLite database file and the `chinook.sql` script. The `chinook.sql` script is used to create the necessary tables and populate the database.
+Ensure you have the `FakeData.db` SQLite database file and the `FakeData.sql` script. The `FakeData.sql` script is used to create the necessary tables and populate the database.
 
 ### Running the Application
 
@@ -86,8 +86,8 @@ Once the Gradio interface is up and running, you can interact with the chatbot b
 
 ```plaintext
 sql-chatbot/
-├── chinook.db                # SQLite database file
-├── chinook.sql               # SQL script to set up the database
+├── FakeData.db                # SQLite database file
+├── FakeData.sql               # SQL script to set up the database
 ├── SQL_Chatbot.ipynb         # Main application code in Jupyter Notebook format
 ├── README.md                 # Project documentation
 └── requirements.txt          # Python package requirements
@@ -119,10 +119,10 @@ The Gradio interface provides a user-friendly way to interact with the system. U
 
 ### 1. Setting Up the SQLite Database
 
-The project begins by setting up the SQLite database. The `setup_sqlite_db` function is responsible for creating the database and populating it with data from an SQL script. This function connects to the database file `chinook.db` and executes the SQL script `chinook.sql`, which contains the necessary commands to create tables and insert data. After executing the script, the function verifies the creation of tables by querying the SQLite master table.
+The project begins by setting up the SQLite database. The `setup_sqlite_db` function is responsible for creating the database and populating it with data from an SQL script. This function connects to the database file `FakeData.db` and executes the SQL script `FakeData.sql`, which contains the necessary commands to create tables and insert data. After executing the script, the function verifies the creation of tables by querying the SQLite master table.
 
 ```python
-def setup_sqlite_db(db_path='chinook.db', sql_script_path='chinook.sql'):
+def setup_sqlite_db(db_path='FakeData.db', sql_script_path='FakeData.sql'):
     conn = sqlite3.connect(db_path)
     with open(sql_script_path, 'r') as file:
         sql_script = file.read()
@@ -140,7 +140,7 @@ def setup_sqlite_db(db_path='chinook.db', sql_script_path='chinook.sql'):
 The project uses LangChain's `SQLDatabase` utility to interact with the SQLite database. The `SQLDatabase.from_uri` method is used to create a `db` object, which provides an interface to the SQLite database. This object is used by various LangChain tools to execute SQL queries and retrieve information.
 
 ```python
-database_path = 'chinook.db'
+database_path = 'FakeData.db'
 connection_url = f"sqlite:///{database_path}"
 db = SQLDatabase.from_uri(connection_url, sample_rows_in_table_info=3)
 ```
