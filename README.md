@@ -2,22 +2,18 @@
 
 This project implements an AI-powered chatbot capable of interacting with a local SQLite database using natural language queries. The chatbot leverages LangChain, Hugging Face embeddings, and Gradio for the user interface. The chatbot processes user questions, generates corresponding SQL queries, validates them, and returns results in a user-friendly format.
 
-## **Table of Contents**
+## Table of Contents
 
-​	•	[Features](#features)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [How It Works](#how-it-works)
+- [Detailed Implementation](#detailed-implementation)
+- [Examples](#examples)
+- [License](#license)
 
-​	•	[Installation](#installation)
-
-​	•	[Usage](#usage)
-
-​	•	[Project Structure](#project-structure)
-
-​	•	[How It Works](#how-it-works)
-
-​	•	[Examples](#examples)
-
-​	•	[License](#license)
-
+  
 ## Features
 
 - **Natural Language Processing**: Converts user questions into SQL queries using LangChain's large language models.
@@ -240,7 +236,8 @@ demo.launch(share=True)
 
 Here are some example interactions:
 
-- - ![image-20240821173053422](/Users/yj/Library/Application Support/typora-user-images/image-20240821173053422.png)
+<img width="1478" alt="image" src="https://github.com/user-attachments/assets/8722d6bc-e83d-49ae-b24e-6570adcdc5d5">
 
-- - ![image-20240821173014528](/Users/yj/Library/Application Support/typora-user-images/image-20240821173014528.png)
+<img width="1472" alt="image" src="https://github.com/user-attachments/assets/888b96f7-d31f-4134-a043-ce6a9d16ce56">
+
 
